@@ -1,0 +1,87 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  padding-bottom: 65px;
+  overflow-x: hidden;
+}
+
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/blog-bg.jpg);
+  background-size: cover;
+  min-height: 90vh;
+  max-width: 100%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.hero h1 {
+  font-family: "Concert One", cursive;
+  font-size: 4.2rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 3%;
+}
+
+.hero-cardapio {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/subscribe-bg.jpg);
+  background-size: cover;
+  min-height: 10vh;
+  max-width: 100%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.hero-cardapio h2 {
+  font-family: "Concert One", cursive;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.conheca {
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+
+.conheca h2 {
+  color: #ff530a;
+  font-weight: 900;
+  font-size: 3rem;
+}
+@media (max-width: 700px) {
+  .conheca h2 {
+    font-size: 2rem;
+  }
+}
+
+.hero-cardapio {
+  margin: 5% 0;
+}
+
+.fotos {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.img-fluid {
+  margin-bottom: 3%;
+}
